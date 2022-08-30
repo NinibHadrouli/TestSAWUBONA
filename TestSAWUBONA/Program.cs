@@ -22,13 +22,13 @@ namespace SawubonaTest // Note: actual namespace depends on the project name.
 
             //********* Inputs for test **********
             //string input = "M:-10,10,-10,10;S:-5,5;[W5,E5,N4,E3,S2,W1]";
-            string input = "[W1,N1,E1,E1,S1,S1,W1,W1,N1,E1];S:0,0;M:-1,1,-1,1";
+            //string input = "[W1,N1,E1,E1,S1,S1,W1,W1,N1,E1];S:0,0;M:-1,1,-1,1";
             //string input = "S:0,0;[N1,N1,N1,N1,N1,S1,S1,S1,S1,S1];M:0,0,0,5";
             // *********************************************
 
             Console.WriteLine("***********\\\\\\ SAWUBONA Test ////***********\nA prototype of a robot scheduling software.\n********************************************\nPlease insert a coordinate :");
 
-            // string input = Console.ReadLine();
+            string input = Console.ReadLine();
 
             checkInputParts(input);
             if (IsAllCorrect)
